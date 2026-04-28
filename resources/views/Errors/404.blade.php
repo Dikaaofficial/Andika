@@ -20,7 +20,6 @@ html, body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* 🎬 VIDEO FULL LAYAR (FIX UTAMA) */
 #bgVideo {
     position: fixed;
     top: 0;
@@ -31,7 +30,6 @@ html, body {
     z-index: -2;
 }
 
-/* OVERLAY */
 .overlay {
     position: fixed;
     width: 100%;
@@ -40,7 +38,6 @@ html, body {
     z-index: -1;
 }
 
-/* CONTAINER */
 .container {
     position: absolute;
     top: 50%;
@@ -50,7 +47,6 @@ html, body {
     color: white;
 }
 
-/* 🔥 404 JOGET */
 h1 {
     font-size: 120px;
     font-weight: bold;
@@ -58,7 +54,6 @@ h1 {
     animation: dance 0.4s infinite;
 }
 
-/* TEXT */
 h2 {
     margin-top: 10px;
     animation: bounce 1s infinite;
@@ -69,7 +64,6 @@ p {
     color: #ddd;
 }
 
-/* BUTTON */
 a {
     display: inline-block;
     margin-top: 20px;
@@ -86,7 +80,6 @@ a:hover {
     transform: scale(1.1);
 }
 
-/* 🎵 ANIMASI JOGET */
 @keyframes dance {
     0% { transform: translate(0,0) rotate(0deg); }
     25% { transform: translate(-5px,5px) rotate(-5deg); }
@@ -95,13 +88,11 @@ a:hover {
     100% { transform: translate(5px,5px) rotate(5deg); }
 }
 
-/* BOUNCE */
 @keyframes bounce {
     0%,100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
 }
 
-/* FLASH EFFECT */
 .flash {
     position: fixed;
     width: 100%;
@@ -120,7 +111,6 @@ a:hover {
 
 <body>
 
-<!-- 🎬 VIDEO BACKGROUND -->
 <video autoplay muted loop playsinline id="bgVideo">
     <source src="{{ asset('video/kicaw.mp4') }}" type="video/mp4">
 </video>
