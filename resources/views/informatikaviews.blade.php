@@ -8,7 +8,7 @@
 <body>
   <marquee behavior="scroll" direction="left"
   scrollamount="5">
-<h1>Selamat datang di HMIT INFORMATIKA</h1>
+<h1>Selamat datang di HIMPUNAN MAHASISWA INFORMATIKA</h1>
   </marquee>
 <h1>Hello {{ $nama }}</h1>
 <h1>Ini adalah tampilan yang di buat menggunakan blade template</h1>  

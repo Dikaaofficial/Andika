@@ -214,15 +214,30 @@
     </section>
 
     <!-- CTA -->
-    <section style="background: linear-gradient(to right, #1e40af, #3b82f6); color: white; text-align: center; padding: 100px 0;">
-        <div class="container">
-            <h2 style="color: white; font-size: 2.8rem;">Siap Berkontribusi untuk Masa Depan?</h2>
-            <p style="font-size: 1.35rem; margin: 25px 0 35px;">Bergabunglah dengan HMIT dan wujudkan ide-ide inovatifmu bersama kami</p>
-            <a href="#" class="btn" style="background: white; color: #1e40af; font-size: 1.2rem; padding: 16px 50px;">
+    <!-- CTA -->
+<section style="background: linear-gradient(to right, #1e40af, #3b82f6); color: white; text-align: center; padding: 100px 0;">
+    <div class="container">
+        <h2 style="color: white; font-size: 2.8rem;">Siap Berkontribusi untuk Masa Depan?</h2>
+        <p style="font-size: 1.35rem; margin: 25px 0 35px;">
+            Bergabunglah dengan HMIT dan wujudkan ide-ide inovatifmu bersama kami
+        </p>
+
+        <!-- TOMBOL (DITAMBAHKAN DI SINI, TANPA UBAH DESAIN) -->
+        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+            
+            <a href="/form-anggota" class="btn"
+               style="background: white; color: #1e40af; font-size: 1.2rem; padding: 16px 50px;">
                 Daftar Menjadi Anggota
             </a>
+
+            <a href="/form-aspirasi" class="btn"
+               style="background: white; color: #1e40af; font-size: 1.2rem; padding: 16px 50px;">
+                Kirim Aspirasi
+            </a>
+
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Footer -->
     <footer class="footer">
